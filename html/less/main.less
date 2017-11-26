@@ -1,0 +1,60 @@
+// startup
+@primary-color: rgb(51, 66, 232);
+
+@form-font-size: 1em;
+@form-text-padding: 5px;
+
+#ccg-lookup-form {
+  background-color: rgb(12, 204, 83);
+  padding: 15px 10px;
+  text-align: center;
+}
+#ccg-service-input {
+  font-size: @form-font-size;
+  padding: @form-text-padding;
+  background: none;
+  border-color: transparent;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  margin: 0px 10px;
+  @media (max-width: 500px) {
+    display: block;
+    margin: 10px auto;
+  }
+}
+#ccg-postcode-input {
+  font-size: @form-font-size;
+  padding: @form-text-padding;
+  margin: 0px 10px;
+  width: 50%;
+  max-width: 300px
+}
+#ccg-lookup-btn {
+  font-size: @form-font-size;
+  padding: @form-text-padding;
+  color: @primary-color;
+  font-weight: bold;
+  background: none;
+  border-color: transparent;
+  cursor: pointer;
+  margin: 0px 10px;
+}
+
+#ccg-lookup-result {
+  padding: 1px;
+  background-color: rgb(210, 216, 210);
+  .ccg-lookup-pairs {
+    max-width: 800px;
+    margin: 10px auto 0px;
+    dt {
+      font-weight: bold;
+    }
+    dd {
+      margin-top: 5px;
+      margin-bottom: 10px;
+    }
+  }
+  .ccg-lookup-details {
+    max-width: 800px;
+    margin: 10px auto 0px;
+  }
+}

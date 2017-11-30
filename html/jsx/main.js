@@ -29,14 +29,24 @@ document.addEventListener('DOMContentLoaded', ondomready, false);
 
 function lookup_form_submit(evt) {
   evt.preventDefault()
-  let service_input = $get('ccg-service-input')
-  let postcode_input = $get('ccg-postcode-input')
-  if(!service_input || !postcode_input)
-    throw new Error("Could not find service or postcode inputs for ccg");
-  let service = _.find(config.services, (a) => a.name == service_input.value)
-  if(!service)
-    throw new Error("Could not find service of name: "+ service_input.value);
-  ccg_lookup(service, postcode_input.value)
+  new Promise((resolve, reject) => {
+    let service_input = $get('ccg-service-input')
+    let postcode_input = $get('ccg-postcode-input')
+    if(!service_input || !postcode_input)
+      throw new Error("Could not find service or postcode inputs for ccg");
+    let service = _.find(config.services, (a) => a.name == service_input.value)
+    if(!service)
+      throw new Error("Could not find service of name: "+ service_input.value);
+    if(!postcode_input.value) {
+      throw new Error("Please write a postcode")
+    }
+    if(!postcode_input.value.match(/^[A-Z]{1,2}[0-9][0-9A-Z]?\s?[0-9][A-Z]{2}$/i)) {
+      throw new Error("Input postcode do not match uk postcode standard")
+    }
+    
+    ccg_lookup(service, postcode_input.value)
+      .then(resolve, reject)
+  })
     .catch((err) => {
       alert(err)
     });

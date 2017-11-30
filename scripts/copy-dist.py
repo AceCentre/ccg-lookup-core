@@ -26,7 +26,7 @@ dist_data_dir = argv[3] if len(argv) > 3 else \
 dist_main_js = argv[4] if len(argv) > 4 else "js/main.js"
 dist_main_css = argv[5] if len(argv) > 5 else "css/main.css"
 
-replacement_needle = "__CCG_LOOKUP__"
+replacement_needle = "$#CCG_LOOKUP#$"
 
 # write html
 print("Write html")
@@ -56,8 +56,18 @@ print("copy main.js")
 mkpath(os.path.join(dist_dir, os.path.dirname(dist_main_js)))
 copy_file(os.path.join(html_dir, "js/main.js"),
           os.path.join(dist_dir, dist_main_js))
+print("copy main.js.map")
+tmp = os.path.dirname(os.path.dirname(dist_main_js))
+mkpath(os.path.join(dist_dir, tmp, 'maps'))
+copy_file(os.path.join(html_dir, "maps/main.js.map"),
+          os.path.join(dist_dir, tmp, 'maps', 'main.js.map'))
 
 print("copy main.css")
 mkpath(os.path.join(dist_dir, os.path.dirname(dist_main_css)))
 copy_file(os.path.join(html_dir, "css/main.css"),
           os.path.join(dist_dir, dist_main_css))
+print("copy main.css.map")
+tmp = os.path.dirname(os.path.dirname(dist_main_css))
+mkpath(os.path.join(dist_dir, tmp, 'maps'))
+copy_file(os.path.join(html_dir, "maps/main.css.map"),
+          os.path.join(dist_dir, tmp, 'maps', 'main.css.map'))

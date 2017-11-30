@@ -11,11 +11,21 @@ const del = require('del')
 const browserSync = require('browser-sync').create();
 const webpackstream = require('webpack-stream');
 const webpack = webpackstream.webpack
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 let src_dir = './html'
 let less_dir = `${src_dir}/less`
 let dist_dir = './html'
 let dist_maps_dir = `${dist_dir}/maps`
+let isProduction = false
+
+function compact(a) {
+  if(Array.isArray(a)) {
+    return _.filter(a, (a) => !!a)
+  } else {
+    return _.pickBy(a, (v) => !!v)
+  }
+}
 
 // tasks
 function build_less() {
@@ -61,12 +71,14 @@ function build_script() {
           "node_modules"
         ]
       },
-      plugins: [
-        /*
-        new webpack.ProvidePlugin({
-          '_babeldummy': 'babel-polyfill'
-        })*/
-      ]
+      plugins: compact([
+        isProduction && new UglifyJsPlugin({
+          sourceMap: true
+        }),
+        new webpack.EnvironmentPlugin({
+          DATA_DIR: ''
+        })
+      ])
     }))
     .pipe(through.obj(function (file, enc, cb) {
       // Dont pipe through any source map files, it will be handled
@@ -111,3 +123,5 @@ gulp.task('clean', clean)
 gulp.task('build', gulp.series(clean, build_script, build_less))
 gulp.task('watch', gulp.series('build', watch))
 gulp.task('dev', gulp.series('build', gulp.parallel(watch, browser_sync)))
+gulp.task('build-prod', gulp.series((done) => { isProduction = true; done(); },
+                                    'build'))

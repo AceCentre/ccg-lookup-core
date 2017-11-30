@@ -3,10 +3,10 @@ module.exports = {
   services: [
     {
       name: "AAC",
-      table: data_dir + "/data/service-aac-ccg.csv",
+      table: data_dir + "/service-aac-ccg.csv",
       postcodes_lookup_path: [ "codes", "ccg" ],
       table_match_field: "CCG17CD",
-      get_details_url: data_dir + '/data/details/{service_name_LOWER}-{Service ID_LOWER}.md',
+      get_details_url: data_dir + '/details/{service_name_LOWER}-{Service ID_LOWER}.md',
       info_pairs: [
         {
           key: 'CCG17CDH',

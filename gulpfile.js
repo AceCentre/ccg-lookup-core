@@ -76,7 +76,7 @@ function build_script() {
           sourceMap: true
         }),
         new webpack.EnvironmentPlugin({
-          DATA_DIR: ''
+          DATA_DIR: 'data'
         })
       ])
     }))

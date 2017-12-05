@@ -10,11 +10,15 @@ CCAS,Chailey Communication Aid Service (CCAS),#ff6666,01825 721506,SC-TR.Chailey
 CASEE,Communication Aid Service East of England (CASEE),#800000,01223 349401,enquiries.casee@nhs.net,n/a,http://www.communicationmatters.org.uk/contact-assessment-service/east-of-england,All,AAC,
 COMPASS,Compass Assistive and Rehabilitation Technology Service,#ffd966,020 8780 4500,compass@rhn.org.uk,https://www.rhn.org.uk/what-makes-us-special/services/compass/,http://www.communicationmatters.org.uk/contact-assessment-service/compass-assistive-technology-service,Adults,AAC,
 EATS,Electronic Assistive Technology Service (EATS),#cc9900,01522 697282,eats.lincoln@nhs.net,http://www.eatslincoln.co.uk/ (temporary),http://www.communicationmatters.org.uk/contact-assessment-service/lincolnshire-adults-aac-service,All,AAC; EC,
-GSTT,Guy's and St Thomas' Assistive Communication Service (GSTT ACS),#664d00,0203 049 7751,gst-tr.acs-hub@nhs.net,"
-
-http://www.guysandstthomas.nhs.uk/our-services/community-assistive-communication-service/overview.aspx
-
-",http://www.communicationmatters.org.uk/contact-assessment-service/assistive-technology-team,All,AAC,
+GSTT,Guy's and St Thomas' Assistive Communication Service (GSTT ACS),#664d00,0203 049 7751,gst-tr.acs-hub@nhs.net,"http://www.guysandstthomas.nhs.uk/our-services/community-assistive-communication-service/overview.aspx",http://www.communicationmatters.org.uk/contact-assessment-service/assistive-technology-team,All,AAC,
 KM-CAT,Kent and Medway Communication and Assistive Technology Service (KM CAT)- Adult Team,#c6ffb3,1227864083,acat.service@nhs.net,www.ekhuft.nhs.uk/acat,http://www.communicationmatters.org.uk/contact-assessment-service/km-cat-adults,Adults,AAC,
 KM-CAT,Kent and Medway Communication and Assistive Technology Service (KM CAT)- CYP Team,#00ff00,01233 629859,kcht.cat-admin@nhs.net,www.kelsi.org.uk ,http://www.communicationmatters.org.uk/contact-assessment-service/km-cat-children-and-young-people,Children & young people,AAC,
-RCAS,Regional Communication Aid Service (RCAS),#1a6600,,,,http://www.communicationmatters.org.uk/contact-assessment-service/regional-communication-aid-service,All,AAC,
+RCAS,Regional Communication Aid Service (RCAS),#1a6600,,,http://www.communicationmatters.org.uk/contact-assessment-service/regional-communication-aid-service,,All,AAC,
+TASCC,,,,,http://www.abernet.org/tasscc/,,Adults,,
+SCTCI,Scottish Centre of Technology for the Communication Impaired,,,,,,Adults,,
+KEYCOMM,Lothian Communication Technology Service,,,,,,Adults,,
+FACCT,Fife AAC,,,,,https://www.fifedirect.org.uk,Adults,,
+CALL,CALL Scotland,,,,,,Children,,
+AYRSHIRE,Ayrshire & Arran AAC Resource,,,,,,Adults,,
+NCEAT,National Centre for Electronic Assistive Technology (NCEAT),,,,http://www.cardiffandvaleuhb.wales.nhs.uk/electronic-assistive-technology,http://www.communicationmatters.org.uk/contact-assessment-service/communication-aid-centre-alac,All,,
+BECAS,Belfast Communication Advice Centre,,,,,http://www.communicationmatters.org.uk/contact-assessment-service/communication-advice-centre,,,

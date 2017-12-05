@@ -222,13 +222,53 @@ ACE-N,E38000032,,NHS Central Manchester CCG
 ACE-N,E38000093,,NHS Lancashire North CCG
 ACE-N,E38000123,,NHS North Manchester CCG
 ACE-N,E38000158,,NHS South Manchester CCG
-NCEAT,W11000029,,Cardiff and Vale University Health Board
-NCEAT,W11000026,,Abertawe Bro Morgannwg University Health Board
-NCEAT,W11000028,,Aneurin Bevan University Health Board
-NCEAT,W11000023,,Betsi Cadwaladr University Health Board
-NCEAT,W11000027,,Cwm Taf University Health Board
-BECAS,ZC010,,Belfast
-BECAS,,,
-BECAS,,,
-BECAS,,,
-BECAS,,,
+NCEAT,W11000023,7A1,Betsi Cadwaladr University Health Board
+NCEAT,W11000024,7A7,Powys Teaching Health Board
+NCEAT,W11000025,7A2,Hywel Dda University Health Board
+NCEAT,W11000026,7A3,Abertawe Bro Morgannwg University Health Board
+NCEAT,W11000027,7A5,Cwm Taf University Health Board
+NCEAT,W11000028,7A6,Aneurin Bevan University Health Board
+NCEAT,W11000029,7A4,Cardiff and Vale University Health Board
+BECAS,ZC010,ZC010,Belfast
+BECAS,ZC020,ZC020,Northern
+BECAS,ZC030,ZC030,Southern
+BECAS,ZC040,ZC040,South Eastern
+BECAS,ZC050,ZC050,Western
+,M01000001,YK1,Isle of Man
+AYRSHIRE,S03000001,1,East Ayrshire Community Health Partnership
+AYRSHIRE,S03000002,2,North Ayrshire Community Health Partnership
+AYRSHIRE,S03000003,3,South Ayrshire Community Health Partnership
+CALL,S03000004,4,Scottish Borders Community Health and Care Partnership
+CALL,S03000005,5,Dumfries and Galloway Community Health Partnership
+FACCT,S03000006,6,Dunfermline and West Fife Community Health Partnership
+FACCT,S03000007,7,Glenrothes and North East Fife Community Health Partnership
+CALL,S03000008,8,Kirkcaldy and Levenmouth Community Health Partnership
+CALL,S03000009,9,Clackmannanshire Community Health Partnership
+CALL,S03000010,10,Falkirk Community Health Partnership
+CALL,S03000011,11,Stirling Community Health Partnership
+CALL,S03000012,12,Aberdeen City Community Health Partnership
+CALL,S03000013,13,Aberdeenshire Community Health Partnership
+CALL,S03000014,14,Moray Community Health and Social Care Partnership
+CALL,S03000015,15,East Dunbartonshire Community Health Partnership
+CALL,S03000017,17,East Renfrewshire Community Health and Care Partnership
+CALL,S03000018,18,Inverclyde Community Health and Care Partnership
+CALL,S03000020,20,Renfrewshire Community Health Partnership
+CALL,S03000023,23,West Dunbartonshire Community Health and Care Partnership
+CALL,S03000025,25,Argyll and Bute Community Health Partnership
+CALL,S03000029,29,North Lanarkshire Community Health Partnership
+CALL,S03000030,30,South Lanarkshire Community Health Partnership
+KEYCOMM,S03000031,31,East Lothian Community Health Partnership
+KEYCOMM,S03000032,32,Midlothian Community Health Partnership
+KEYCOMM,S03000035,35,West Lothian Community Health and Care Partnership
+CALL,S03000036,36,Orkney Community Health Partnership
+CALL,S03000037,37,Shetland Community Health Partnership
+CALL,S03000038,38,Angus Community Health Partnership
+CALL,S03000039,39,Dundee Community Health Partnership
+CALL,S03000040,40,Perth and Kinross Community Health Partnership
+CALL,S03000041,41,Western Isles Community Health and Social Care Partnership
+CALL,S03000042,42,Edinburgh Community Health Partnership
+CALL,S03000044,44,Highland Health and Social Care Partnership
+RCAS,E38000215,01H,NHS North Cumbria CCG
+CASEE,E38000218,06W,NHS Norwich CCG
+CASEE,E38000219,06Y,NHS South Norfolk CCG
+ACE-S,L99999999,,(pseudo) Channel Islands

@@ -4,27 +4,14 @@ from sys import argv, stderr
 
 fn_template = "{Service ID}"
 md_template = """
-# <span style="color:{Colour RGB};">({Service ID})</span> {Service Name}
+## {Service Name}
 
-## Enquiries Contact
-| Phone | Email |
-| ----- | ----- |
-| {Enquiries Contact - phone} | {Enquiries Contact - email} |
-
-## Links
-
-- [Website]({Website})
+- Caseload: {Caseload eg adults/children} 
+- <i class="fa fa-phone"></i> {Enquiries Contact - phone}
+- <i class="fa fa-envelope"></i> {Enquiries Contact - email}
+- <i class="fa fa-home"></i> [{Website}]({Website})
 - [CM Listing Link]({CM Listing Link})
-
-## More info
-| Caseload (e.g. adults/children) | Service |
-| ------------------------------- | ------- |
-| {Caseload eg adults/children} | {Service} |
-
-
-## Notes
-
-{Notes}
+- {Notes}
 """
 
 if __name__ == '__main__':

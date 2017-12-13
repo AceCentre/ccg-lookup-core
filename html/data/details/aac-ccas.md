@@ -1,22 +1,9 @@
 
-# <span style="color:#ff6666;">(CCAS)</span> Chailey Communication Aid Service (CCAS)
+## Chailey Communication Aid Service (CCAS)
 
-## Enquiries Contact
-| Phone | Email |
-| ----- | ----- |
-| 01825 721506 | SC-TR.ChaileyAACservice@nhs.net |
-
-## Links
-
-- [Website](http://www.sussexcommunity.nhs.uk/services/chailey-communication-aidservice.htm)
+- Caseload: All 
+- <i class="fa fa-phone"></i> 01825 721506
+- <i class="fa fa-envelope"></i> SC-TR.ChaileyAACservice@nhs.net
+- <i class="fa fa-home"></i> [http://www.sussexcommunity.nhs.uk/services/chailey-communication-aidservice.htm](http://www.sussexcommunity.nhs.uk/services/chailey-communication-aidservice.htm)
 - [CM Listing Link](http://www.communicationmatters.org.uk/contact-assessment-service/chailey-clinical-services)
-
-## More info
-| Caseload (e.g. adults/children) | Service |
-| ------------------------------- | ------- |
-| All | AAC |
-
-
-## Notes
-
-
+- 

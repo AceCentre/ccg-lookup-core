@@ -1,22 +1,9 @@
 
-# <span style="color:;">(FACCT)</span> Fife AAC
+## Fife AAC
 
-## Enquiries Contact
-| Phone | Email |
-| ----- | ----- |
-|  |  |
-
-## Links
-
-- [Website]()
+- Caseload: Adults 
+- <i class="fa fa-phone"></i> 
+- <i class="fa fa-envelope"></i> 
+- <i class="fa fa-home"></i> []()
 - [CM Listing Link](https://www.fifedirect.org.uk)
-
-## More info
-| Caseload (e.g. adults/children) | Service |
-| ------------------------------- | ------- |
-| Adults |  |
-
-
-## Notes
-
-
+- 

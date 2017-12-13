@@ -8,7 +8,7 @@ md_template = """
 
 - Caseload: {Caseload eg adults/children} 
 - <i class="fa fa-phone"></i> {Enquiries Contact - phone}
-- <i class="fa fa-envelope"></i> {Enquiries Contact - email}
+- <i class="fa fa-envelope"></i> <a href="mailto:{Enquiries Contact - email}">{Enquiries Contact - email}</a>
 - <i class="fa fa-home"></i> [{Website}]({Website})
 - [CM Listing Link]({CM Listing Link})
 - {Notes}

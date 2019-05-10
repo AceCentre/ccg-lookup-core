@@ -2,7 +2,10 @@
   "name": "ccg-lookup",
   "version": "0.0.1",
   "description": "",
-  "scripts": {},
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
   "author": "Hossein Amin <hossein@aminbros.com>",
   "license": "GPL-2.0",
   "engines": {
@@ -30,9 +33,11 @@
     "through2": "^2.0.3",
     "uglifyjs-webpack-plugin": "^1.1.1",
     "vinyl-named": "^1.1.0",
-    "webpack-stream": "^4.0.0"
+    "webpack-stream": "^4.0.0",
+    "snyk": "^1.71.0"
   },
   "devDependencies": {
     "babel-plugin-transform-runtime": "^6.23.0"
-  }
+  },
+  "snyk": true
 }
